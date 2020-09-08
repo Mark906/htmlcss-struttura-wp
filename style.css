@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header
+{
+    background-color: orange;
+    height: 100px;
+    margin-bottom: 7px;
+}
+
+
+body
+{
+    margin: 5%;
+}
+
+
+.container::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+nav
+{
+    background-color: grey;
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+
+
+main
+{
+    background-color: black;
+    float: left;
+    width:calc(50% - 20px);
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.altodestra
+{
+    background-color: lightgrey;
+    float: right;
+    width: 25%;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+
+.bassodestra
+{
+    background-color: lightgrey;
+    float: right;
+    width: 25%;
+    height: 230px;
+}
+
+
+footer
+{
+    height: 50px;
+    margin-top: 7px;
+    background-color: yellow;
+}
